@@ -85,6 +85,12 @@
 		"environment:MRT_ENDPOINT_IP" : "0.0.0.0",
 		"environment:MRT_ENDPOINT_PORT" : "9030",
 		
+		"environment:MODACLOUDS_MONITORING_MANAGER_ENDPOINT_IP" : "0.0.0.0",
+		"environment:MODACLOUDS_MONITORING_MANAGER_ENDPOINT_PORT" : "8082",
+		
+		"environment:MODACLOUDS_LOAD_BALANCER_CONTROLLER_ENDPOINT_IP" : "0.0.0.0",
+		"environment:MODACLOUDS_LOAD_BALANCER_CONTROLLER_ENDPOINT_PORT" : "8088",
+		
 		"environment:JAVA_HOME" : "/opt/mosaic-rt-jre-7-32bit",
 		"environment:PATH" : "@{definitions:environment:JAVA_HOME}/bin:/usr/bin:/bin",
 		"environment:TMPDIR" : "/tmp/modaclouds/@{package:identifier}"
