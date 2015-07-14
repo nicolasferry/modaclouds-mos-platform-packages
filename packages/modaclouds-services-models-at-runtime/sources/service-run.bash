@@ -36,6 +36,8 @@ _variable_defaults=(
 )
 declare "${_variable_defaults[@]}"
 
+_identifier="${modaclouds_service_identifier:-0000000000000000000000000000000000000000}"
+
 if test -n "${modaclouds_service_temporary:-}" ; then
 	_TMPDIR="${modaclouds_service_temporary:-}"
 elif test -n "${modaclouds_temporary:-}" ; then
