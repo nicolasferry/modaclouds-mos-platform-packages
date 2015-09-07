@@ -76,7 +76,7 @@
 		"package:version" : "0.7.0_dev",
 		"package:release" : "@{execution:timestamp}",
 		
-		"versions:distribution" : "0.3.5",
+		"versions:distribution" : "0.3.6",
 		
 		"resources:modaclouds:url:base" : "http://ftp.modaclouds.eu/public",
 		"resources:modaclouds:url:dependencies" : "@{definitions:resources:modaclouds:url:base}/distribution/mrt/@{definitions:versions:distribution}",
